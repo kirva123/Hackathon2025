@@ -6,7 +6,7 @@ import numpy as np
 # Download and prepare the graph
 place_name = "Dublin City, Ireland"
 G = ox.graph.graph_from_place(place_name, network_type="drive")
-
+G = G.to_undirected()
 #G = ox.simplification.consolidate_intersections(
 #        G,
 #        tolerance=0.0002,
