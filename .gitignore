@@ -2,3 +2,5 @@
 *.npy
 Initial.ipynb
 data/*
+dublin_interactive_osmnx.html
+edges_data.csv
